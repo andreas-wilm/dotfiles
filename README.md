@@ -2,9 +2,9 @@
 
 # To set up
 
-ln -s ~/.tmux.conf $(pwd)/tmux.conf
+ln -s $(pwd)/tmux.conf ~/.tmux.conf
 
-ln -s ~/.config/starship.toml $(pwd)/starship.toml
+ln -s $(pwd)/starship.toml ~/.config/starship.toml
 
-ln -s ~/.config/nvim $(pwd)/kickstart.nvim
+ln -s $(pwd)/kickstart.nvim ~/.config/nvim
 
