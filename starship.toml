@@ -17,6 +17,10 @@ right_format = """
 $git_branch$git_status$git_commit$git_state$git_metrics $conda
 """
 
+[hostname]
+format = '[$ssh_symbol$hostname]($style) '
+ssh_only = true
+
 [cmd_duration]# AW added
 min_time = 500
 format = 'took [$duration](bold yellow)'
