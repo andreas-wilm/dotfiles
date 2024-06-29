@@ -1,0 +1,40 @@
+# https://alacritty.org/config-alacritty.html
+
+[env]
+TERM = "xterm-256color"
+
+[window]
+padding.x = 10
+padding.y = 10
+startup_mode = "Maximized"
+#decorations = "ButtonLess"
+decorations = "Full"
+decorations_theme_variant = "Dark"
+
+option_as_alt = "Both"
+
+[font]
+#normal.family = "Hack Nerd Font Mono"
+normal.family = "MesloLGS Nerd Font Mono"
+size = 15
+
+[selection]
+save_to_clipboard = true
+
+#[mouse]
+#hide_when_typing = true
+
+[keyboard]
+bindings = [
+# Shift|Control|Super|Command|Alt|Option
+# cmd/alt readline on Mac
+{ key= "F", mods= "Command", chars= "\u001BF" }, # Skip word right, overwriting search
+{ key= "B", mods= "Command", chars= "\u001BB" }, # Skip word left, overwrithing search
+{ key= "D", mods= "Command", chars= "\u001BD" }, # Skip word left
+{ key = "F", mods = "Control", action = "SearchForward" },
+{ key = "B", mods = "Control", action = "SearchBackward" },
+{ key = "+", mods = "Command|Shift", action = "IncreaseFontSize" },
+{ key = "-", mods = "Command", action = "DecreaseFontSize" },
+{ key = "T", mods = "Command", action = "CreateNewTab" },
+]
+
