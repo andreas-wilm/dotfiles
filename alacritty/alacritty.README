@@ -1,5 +1,6 @@
-- Cmd + Shift + [ ] for switching between tabs (MacOS specific)
-- Cmd + N for creating a new window
-- Cmd + ` for switching between tabs
+- Cmd + n for creating a new window
+- Cmd + ` for switching between windows
+- Cmd + Shift + [ ] (or {}) for switching between tabs (MacOS specific)
+- Cmd + Num to switch to specific tab
 - See alacritty.toml for custom keybindings
 
