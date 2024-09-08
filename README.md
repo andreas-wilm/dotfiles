@@ -8,3 +8,5 @@ ln -s $(pwd)/starship.toml ~/.config/starship.toml
 
 ln -s $(pwd)/kickstart.nvim ~/.config/nvim
 
+ln -s $(pwd)/alacritty/ ~/.config/alacritty
+
