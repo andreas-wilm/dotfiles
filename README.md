@@ -10,3 +10,4 @@ ln -s $(pwd)/kickstart.nvim ~/.config/nvim
 
 ln -s $(pwd)/alacritty/ ~/.config/alacritty
 
+git pull --recurse-submodules
