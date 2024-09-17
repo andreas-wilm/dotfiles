@@ -10,4 +10,7 @@ ln -s $(pwd)/kickstart.nvim ~/.config/nvim
 
 ln -s $(pwd)/alacritty/ ~/.config/alacritty
 
+# on init only
+git submodule update --init --remote --recursive
+# otherwise
 git pull --recurse-submodules
