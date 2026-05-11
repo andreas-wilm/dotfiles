@@ -47,11 +47,14 @@
 # # which is explained in the docs for that config option.
 # # Just for example:
 # resize-overlay-duration = 4s 200ms
-
+term = "xterm-256color"
 # https://ghostty.org/docs/features/theme
 #theme = iTerm2 Smoooooth
-theme = iTerm2 Pastel Dark Background
+#theme = iTerm2 Pastel Dark Background
+#theme = gruvbox-dark
+theme = TokyoNight Moon
 
 #font-family = Monaco
 #font-family = Menlo
 font-family = MesloLGSNFM-Regular
+font-size = 14
